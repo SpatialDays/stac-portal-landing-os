@@ -25,7 +25,12 @@ const Footer = () => {
       </div>
       <div className="footer__copyright">
         <p>© Ordnance Survey 2023</p>
-        <p>Powered by Spatial Days Ltd</p>
+        <p>
+          Powered by{" "}
+          <a target="_blank" href="https://spatialdays.com/" rel="noreferrer">
+            Spatial Days Ltd
+          </a>
+        </p>
       </div>
     </footer>
   );

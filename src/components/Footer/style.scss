@@ -4,8 +4,8 @@
   padding: 20px;
   font-size: 14px;
   font-weight: 300;
-  width: inherit!important;
-
+  width: inherit !important;
+  margin-top: 5rem!important;
 }
 
 .footer__logo img {
@@ -45,7 +45,7 @@
   margin-top: 10px;
   font-size: 12px;
   color: #777;
-  text-align: right;
+  width: 150px;
 }
 
 .footer__address p {
@@ -59,4 +59,17 @@
   margin-top: 20px;
   font-size: 12px;
   color: #777;
+
+  & p {
+    width: 150px;
+  }
+
+  & a {
+    text-decoration: none;
+    color: var(--osweb-color-link);
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
