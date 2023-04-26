@@ -1,0 +1,74 @@
+{
+  "identity": {
+    "name": "Ordnance Survey",
+    "url": "https://www.ordnancesurvey.co.uk/"
+  },
+  "logo": {
+    "src": "logo.svg",
+    "alt": "Ordnance Survey logo"
+  },
+  "navbar": {
+    "links": [
+      {
+        "text": "Home",
+        "url": "https://www.ordnancesurvey.co.uk/"
+      },
+      {
+        "text": "About us",
+        "url": "https://www.ordnancesurvey.co.uk/about-us"
+      },
+      {
+        "text": "Products",
+        "url": "https://www.ordnancesurvey.co.uk/products"
+      }
+    ]
+  },
+  "hero": {
+    "heading": "See the world in a new light",
+    "subheading": "At OS, we use location data and intelligence to illuminate the unseen."
+  },
+  "block": "We help governments make smarter decisions that ensure our safety and security, we show businesses how to gain a location data edge and we help everyone experience the benefits of the world outside",
+  "cards": [
+    {
+      "id": 1,
+      "title": "OS Shop",
+      "description": "Discover a wide variety of maps, books and outdoor gear! Choose from navigation maps to wall maps or personalised maps. From GPS watches to tents and sleeping bags, visit the OS shop for all your outdoor needs.",
+      "image": "/images/card-1.webp",
+      "button": "Shop now"
+    },
+    {
+      "id": 2,
+      "title": "OS data products",
+      "description": "Locate OS geospatial data download products, API products, and geospatial services, and find out how they can benefit your organisation. Our open data and premium data works in a range of mapping software.",
+      "image": "/images/card-2.jpg",
+      "button": "Discover OS data"
+    }
+  ],
+  "footer": {
+    "address": [
+      "Ordnance Survey Limited",
+      "Explorer House, Adanac Drive",
+      "Nursling, Southampton",
+      "SO16 0AS",
+      "Registration No: 09121572"
+    ],
+    "links": [
+      {
+        "text": "Privacy policy",
+        "url": "https://www.ordnancesurvey.co.uk/about-us/privacy-policy"
+      },
+      {
+        "text": "Cookies",
+        "url": "https://www.ordnancesurvey.co.uk/about-us/cookies"
+      },
+      {
+        "text": "Terms and conditions",
+        "url": "https://www.ordnancesurvey.co.uk/about-us/terms-and-conditions"
+      },
+      {
+        "text": "Accessibility",
+        "url": "https://www.ordnancesurvey.co.uk/about-us/accessibility"
+      }
+    ]
+  }
+}

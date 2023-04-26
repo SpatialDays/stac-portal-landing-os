@@ -1,26 +1,7 @@
 import ResponsiveHero from "./components/ResponsiveHero";
 import Card from "./components/Card";
-
+import config from "../../site-config.json";
 import "./style.scss";
-
-const cards = [
-  {
-    id: 1,
-    title: "OS Shop",
-    description:
-      "Discover a wide variety of maps, books and outdoor gear! Choose from navigation maps to wall maps or personalised maps. From GPS watches to tents and sleeping bags, visit the OS shop for all your outdoor needs.",
-    image: "/images/card-1.webp",
-    button: "Shop now",
-  },
-  {
-    id: 2,
-    title: "OS data products",
-    description:
-      "Locate OS geospatial data download products, API products, and geospatial services, and find out how they can benefit your organisation. Our open data and premium data works in a range of mapping software.",
-    image: "/images/card-2.jpg",
-    button: "Discover OS data",
-  },
-];
 
 const Landing = () => {
   return (
@@ -30,16 +11,12 @@ const Landing = () => {
       <div className="container">
         <div className="text-block">
           <div className="text-block__content">
-            <h2>
-              We help governments make smarter decisions that ensure our safety
-              and security, we show businesses how to gain a location data edge
-              and we help everyone experience the benefits of the world outside{" "}
-            </h2>
+            <h2>{config.block}</h2>
           </div>
         </div>
 
         <div className="card-block">
-          {cards.map((card) => (
+          {config.cards.map((card) => (
             <Card key={card.id} {...card} />
           ))}
         </div>

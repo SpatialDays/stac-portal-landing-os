@@ -1,3 +1,4 @@
+import config from "../../site-config.json";
 import "./style.scss";
 
 const Navbar = () => {
@@ -6,9 +7,11 @@ const Navbar = () => {
       <nav className="container">
         <div className="navbar">
           <ul className="links">
-            <li className="link">Shop</li>
-            <li className="link">Business and Government</li>
-            <li className="link">Education</li>
+            {config.navbar.links.map((link) => (
+              <li key={link} className="link">
+                {link.text}
+              </li>
+            ))}
           </ul>
           <div className="navbar__login">
             <button className="btn btn--secondary">Log in</button>

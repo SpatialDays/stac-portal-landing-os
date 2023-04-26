@@ -1,12 +1,11 @@
 .responsive-hero-container {
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
 
 .responsive-hero {
-  display:flex;
-  flex-wrap:wrap;
+  display: flex;
+  flex-wrap: wrap;
   gap: 0.5rem;
-
 
   @media (max-width: 1200px) {
     flex-direction: column-reverse;
