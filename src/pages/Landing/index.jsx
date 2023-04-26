@@ -1,5 +1,4 @@
-import Hero from "./components/Hero";
-import Banner from "../../components/Banner";
+import ResponsiveHero from "./components/ResponsiveHero";
 import Card from "./components/Card";
 
 import "./style.scss";
@@ -26,8 +25,8 @@ const cards = [
 const Landing = () => {
   return (
     <div>
-      <Hero />
-      <Banner />
+      <ResponsiveHero />
+
 
       <div className="container">
         <div className="text-block">
