@@ -1,0 +1,30 @@
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  height: 3rem;
+
+  &__logo {
+    img {
+      width: 8rem;
+      height: 3rem;
+      object-fit: contain;
+      user-select: none;
+      cursor: pointer;
+      -webkit-user-drag: none;
+    }
+  }
+
+  &__login {
+    cursor: pointer;
+    user-select: none;
+    .heading__login__title {
+      font-family: var(--font-family-primary);
+      font-size: 1rem;
+      padding: 0.5rem;
+      text-transform: uppercase;
+      color: var(--color-primary);
+    }
+  }
+}

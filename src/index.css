@@ -1,22 +1,27 @@
 /* Fonts */
 @font-face {
-  font-family: 'OS Gill Light';
-  src: url('./assets/fonts/OSGill-Light.woff2') format('woff2');
+  font-family: "OS Gill Light";
+  src: url("./assets/fonts/OSGill-Light.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'OS Gill Regular';
-  src: url('./assets/fonts/OSGill-Regular.woff2') format('woff2');
+  font-family: "OS Gill Regular";
+  src: url("./assets/fonts/OSGill-Regular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 
+/* Colours */
+/* Colors */
+:root {
+  --color-primary: #625ba1;
+}
 /* Main */
 :root {
-  --font-primary: 'OS Gill Light', sans-serif;
-  --font-secondary: 'OS Gill Regular', sans-serif;
+  --font-primary: "OS Gill Light", sans-serif;
+  --font-secondary: "OS Gill Regular", sans-serif;
   line-height: 1.5;
   font-weight: 400;
   background-color: #fff;
