@@ -6,11 +6,11 @@ import "./style.scss";
 const cards = [
   {
     id: 1,
-    title: "Location Intelligence",
+    title: "OS Shop",
     description:
-      "We help governments make smarter decisions that ensure our safety and security, we show businesses how to gain a location data edge and we help everyone experience the benefits of the world outside",
+      "Discover a wide variety of maps, books and outdoor gear! Choose from navigation maps to wall maps or personalised maps. From GPS watches to tents and sleeping bags, visit the OS shop for all your outdoor needs.",
     image: "/images/card-1.webp",
-    button: "Learn More",
+    button: "Shop now",
   },
   {
     id: 2,
