@@ -14,10 +14,28 @@
 }
 
 /* Colours */
-/* Colors */
 :root {
-  --color-primary: #625ba1;
+  --osweb-color-primary: #453c90;
+  --osweb-color-secondary: #d40058;
+  --osweb-color-link: #0071bc;
+  --osweb-color-link-visited: #4c2c92;
+  --osweb-color-border: #757575;
+  --osweb-color-error: #c63d54;
+  --osweb-color-success: #118011;
+  --osweb-color-warning: #ffb000;
+  --osweb-color-custom-1: #77555d;
+  --osweb-color-custom-2: #74955b;
+  --osweb-color-custom-3: #9f8f7a;
+  --osweb-color-custom-4: #4e526a;
+  --osweb-color-custom-5: #333333;
+  --osweb-color-custom-6: #f5f5f5;
+  --osweb-color-custom-7: #dddddd;
+  --osweb-color-custom-8: #999999;
+  --osweb-color-custom-9: #666666;
+  --osweb-color-light: #ffffff;
+  --osweb-color-dark: #000000;
 }
+
 /* Main */
 :root {
   --font-primary: "OS Gill Light", sans-serif;

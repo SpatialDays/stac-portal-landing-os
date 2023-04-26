@@ -1,0 +1,44 @@
+.banner {
+  background-color: #fff;
+  padding: 1rem 2rem;
+  background-color: #f5f4fa;
+
+  .banner__title {
+    font-size: 2.5rem;
+    font-family: var(--font-secondary);
+    color: var(--osweb-color-primary);
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+  }
+
+  .banner__description {
+    font-size: 1rem;
+  }
+
+  .banner__btn {
+    width: 100%;
+
+    .btn--primary {
+      display: block;
+      padding: 10px;
+      border-radius: var(--osweb-border-radius-s, 3px);
+      text-align: center;
+      width: 100%;
+      min-width: 180px;
+      background-color: var(--osweb-color-primary, #453c90);
+      border: 2px solid var(--osweb-color-primary, #453c90);
+      color: var(--osweb-color-light, #ffffff);
+      font-family: var(--font-secondary);
+      font-size: 1rem;
+      cursor: pointer;
+      font-weight: var(--osweb-font-weight-l, 600);
+      text-decoration: none;
+      transition-duration: var(--osweb-transition-length-m, 0.5s);
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+}
