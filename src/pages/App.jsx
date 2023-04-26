@@ -3,6 +3,7 @@ import Landing from "./Landing";
 import Contact from "./Contact";
 import Navbar from "../components/Navbar";
 import Heading from "../components/Heading";
+import Footer from "../components/Footer";
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
+
+      <Footer />
     </div>
   );
 }

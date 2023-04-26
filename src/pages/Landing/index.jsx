@@ -27,7 +27,6 @@ const Landing = () => {
     <div>
       <ResponsiveHero />
 
-
       <div className="container">
         <div className="text-block">
           <div className="text-block__content">

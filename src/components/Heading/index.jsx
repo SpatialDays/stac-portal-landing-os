@@ -1,4 +1,3 @@
-// assets/images/logo.svg
 import Logo from "../../assets/images/logo.svg";
 
 import "./style.scss";
