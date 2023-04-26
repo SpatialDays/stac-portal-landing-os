@@ -1,4 +1,4 @@
-.navbar {
+.navbar-container {
   font-family: var(--font-primary);
   display: flex;
   justify-content: space-between;
@@ -6,23 +6,63 @@
   height: 2.5em;
   background-color: var(--osweb-color-primary);
   color: white;
+}
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+
+  @media (max-width: 700px) {
+    justify-content: center;
+  }
 
   .links {
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
-
     .link {
       font-size: 0.875rem;
       padding: 0.5rem 2rem;
       cursor: pointer;
       user-select: none;
-
       &:hover {
         color: #fff;
         background-color: rgb(116, 108, 172);
       }
+    }
+  }
+  &__login {
+    margin-right: 2em;
+
+    & button {
+      display: flex;
+      align-items: center;
+      font-size: 0.8rem;
+      padding: 0.5rem 1.5rem;
+      cursor: pointer;
+      user-select: none;
+      border: 0;
+      border-radius: 0.25rem;
+      background-color: white;
+      font-family: var(--font-primary);
+      color: var(--osweb-color-primary);
+
+      &::after {
+        content: "";
+        display: inline-block;
+        margin-left: 0.5rem;
+        border-top: 0.25rem solid;
+        border-right: 0.25rem solid transparent;
+        border-left: 0.25rem solid transparent;
+        vertical-align: middle;
+      }
+    }
+
+    @media (max-width: 1000px) {
+      display: none;
     }
   }
 }
