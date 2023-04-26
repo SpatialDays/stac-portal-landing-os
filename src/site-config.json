@@ -70,5 +70,8 @@
         "url": "https://www.ordnancesurvey.co.uk/about-us/accessibility"
       }
     ]
+  },
+  "colours": {
+    "primary": "#453c90"
   }
 }
