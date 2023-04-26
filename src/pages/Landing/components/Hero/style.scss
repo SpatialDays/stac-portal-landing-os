@@ -1,0 +1,42 @@
+.hero {
+  position: relative;
+  background: url(../../../../assets/images/hero.jpg) no-repeat center center;
+  background-size: cover;
+  height: 70vh;
+  overflow: hidden;
+
+  /* Animated gradient */
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background-image: linear-gradient(
+      to right,
+      rgba(255, 0, 0, 0.15),
+      rgba(0, 255, 0, 0.25),
+      rgba(0, 0, 255, 0.25)
+    );
+    animation: gradient 10s ease infinite;
+  }
+
+  h1 {
+    color: #fff;
+    font-size: 3rem;
+    text-align: center;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    transform: translateX(0%);
+  }
+  50% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
