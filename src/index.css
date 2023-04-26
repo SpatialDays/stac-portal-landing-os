@@ -40,7 +40,6 @@
 :root {
   --font-primary: "OS Gill Light", sans-serif;
   --font-secondary: "OS Gill Regular", sans-serif;
-  line-height: 1.5;
   font-weight: 400;
   background-color: #fff;
   color-scheme: light dark;
@@ -54,7 +53,7 @@
 body {
   margin: 0;
   font-family: var(--font-primary);
-  line-height: 1.5;
+  line-height: 1.2;
   font-weight: 400;
   background-color: #fff;
   color-scheme: light dark;

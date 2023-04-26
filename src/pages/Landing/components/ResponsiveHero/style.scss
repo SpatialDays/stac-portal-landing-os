@@ -5,6 +5,7 @@
 .responsive-hero {
   display:flex;
   flex-wrap:wrap;
+  gap: 0.5rem;
 
 
   @media (max-width: 1200px) {
