@@ -11,7 +11,6 @@ function App() {
         <Navbar />
         <Heading />
       </div>
-
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Landing />} />

@@ -6,6 +6,11 @@
   padding: 1rem;
   height: 3rem;
 
+  &-container {
+    width: 100%;
+    background-color: white;
+  }
+
   &__logo {
     img {
       width: 8rem;
