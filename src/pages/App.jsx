@@ -7,8 +7,10 @@ import Heading from "../components/Heading";
 function App() {
   return (
     <div className="app">
-      <Navbar />
-      <Heading />
+      <div className="sticky-header">
+        <Navbar />
+        <Heading />
+      </div>
 
       <BrowserRouter>
         <Routes>

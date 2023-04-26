@@ -1,4 +1,5 @@
 .heading {
+  background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,6 +14,10 @@
       user-select: none;
       cursor: pointer;
       -webkit-user-drag: none;
+    }
+
+    &:hover {
+      opacity: 0.8;
     }
   }
 
