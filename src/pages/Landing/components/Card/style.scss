@@ -1,0 +1,70 @@
+.card {
+  font-family: var(--font-secondary);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-color: rgba(24, 3, 35, 0.5);
+  min-height: 432px;
+  max-width: 500px;
+  width: calc(100% - 40px);
+  margin: 20px;
+  padding: 0 25px 25px;
+  border-radius: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  @media (min-width: 768px) {
+    width: calc(100% - 40px);
+  }
+
+  @media (min-width: 992px) {
+    width: calc(33.33% - 40px);
+  }
+
+  @media (min-width: 1200px) {
+    width: calc(35% - 40px);
+  }
+
+  &__content {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  &__title {
+    font-size: 1.8rem;
+    font-family: var(--font-secondary);
+    margin: 0;
+  }
+
+  &__description {
+    font-size: 1rem;
+    line-height: 1.7;
+    margin: 20px 0;
+  }
+
+  &__button {
+    font-family: var(--font-secondary);
+    background-color: var(--osweb-color-primary);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 200px;
+
+    &:hover {
+      background-color: #5f0080;
+    }
+  }
+}
+
+.card-block {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100%;
+}
