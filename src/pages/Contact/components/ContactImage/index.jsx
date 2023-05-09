@@ -4,5 +4,4 @@ const ContactImage = () => {
   return <div className="contact-image"></div>;
 };
 
-
 export default ContactImage;

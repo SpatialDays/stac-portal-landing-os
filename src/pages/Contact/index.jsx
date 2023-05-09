@@ -25,12 +25,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
-{/* <div className="content-container">
-<div className="card-container">
-  <div className="card-block">
-      {config.contact['contact-details-cards'].map((card) => (
-        <ContactDetailsCard key={card.id} {...card} />
-      ))}
-  </div>
-</div> */}
