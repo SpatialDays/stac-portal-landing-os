@@ -1,0 +1,17 @@
+.contact-image {
+  background: url(../../../../assets/images/contact-image.jpg) no-repeat center center;
+  background-size: cover;
+  min-height: 35rem;
+  max-height: 45rem;
+  display: flex;
+  width: calc(100% - 40px);
+  border-radius: 4px;
+  margin: 1rem 0;
+  padding: 2rem 2rem;
+  overflow: hidden;
+
+  @media (max-width: 1200px) {
+    margin: 1rem 1rem;
+    min-height: 20rem;
+  }
+}
