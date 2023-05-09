@@ -44,6 +44,28 @@
       "button": "Discover OS data"
     }
   ],
+  "contact": {
+    "heading": "Contact Us",
+    "subheading": "If you have any queries about this Project, please contact:",
+    "contact-details-cards": [
+      {
+        "id": 1,
+        "name": "Adam Hodges",
+        "company": "Ordnance Survey",
+        "role": "Project Manager",
+        "telephone": "000 000 00000",
+        "email": "adam@email.com"
+      },
+      {
+        "id": 2,
+        "name": "Richard Oates",
+        "company": "Spatial Days Ltd",
+        "role": "Technical Lead",
+        "telephone": "000 000 00000",
+        "email": "richard.oates@spatialdays.com"
+      }
+    ]
+  },
   "footer": {
     "address": [
       "Ordnance Survey Limited",
