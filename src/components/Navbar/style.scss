@@ -18,9 +18,6 @@
   align-items: center;
   padding: 0 1rem;
 
-  @media (max-width: 700px) {
-    justify-content: center;
-  }
 
   .links {
     display: flex;
