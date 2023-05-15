@@ -23,11 +23,18 @@
     list-style: none;
     margin: 0;
     padding: 0;
+
     .link {
       font-size: 0.875rem;
       padding: 0.5rem 2rem;
       cursor: pointer;
       user-select: none;
+
+      &-container {
+        color: white;
+        text-decoration: none;
+      }
+
       &:hover {
         color: #fff;
         background-color: rgb(116, 108, 172);
@@ -50,15 +57,15 @@
       font-family: var(--font-primary);
       color: var(--osweb-color-primary);
 
-      &::after {
-        content: "";
-        display: inline-block;
-        margin-left: 0.5rem;
-        border-top: 0.25rem solid;
-        border-right: 0.25rem solid transparent;
-        border-left: 0.25rem solid transparent;
-        vertical-align: middle;
-      }
+      // &::after {
+      //   content: "";
+      //   display: inline-block;
+      //   margin-left: 0.5rem;
+      //   border-top: 0.25rem solid;
+      //   border-right: 0.25rem solid transparent;
+      //   border-left: 0.25rem solid transparent;
+      //   vertical-align: middle;
+      // }
     }
 
     @media (max-width: 1000px) {
